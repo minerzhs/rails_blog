@@ -1,5 +1,11 @@
 source 'http://ruby.taobao.org'
 
+# mongodb
+gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
+
+# a faster web server replacing WEBrick server
+gem 'thin'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
