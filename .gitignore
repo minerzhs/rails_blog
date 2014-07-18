@@ -12,7 +12,10 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
+
+# Ignore all tmp files
 /tmp
+
 # Ignore all db files
 /db
 

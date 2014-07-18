@@ -1,13 +1,14 @@
-<meta http-equiv="Content-type" content="text/rhtml; charset=utf8" />
-<head></head>
-<body>
-<h1>Hello, Rails!</h1>
+<div class="container">
+  <h1>Hello, Rails!</h1>
 
-<p>i am going to translate blog into chinese</p>
+  <p>
+    I am going to translate blog into chinese by i18n gem.
+    <br>
+    <%= @welcomeMsg %>
+    <br>
+    Today is <%= @time %>
+    <br>
+    <%= link_to "My Blog", controller: "posts" %>
+  </p>
 
-<p>
-	<%= @welcomeMsg %>
-</p>
-<%= link_to "My Blog", controller: "posts" %>
-
-</body>
+</div>
